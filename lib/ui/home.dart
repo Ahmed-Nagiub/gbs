@@ -64,7 +64,7 @@ class _homeScreenState extends State<homeScreen> {
       ),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: _goToTheLake,
-        label: const Text('To the lake!'),
+        label: const Text('Current Location'),
         icon: const Icon(Icons.gps_fixed),
       ),
     );
